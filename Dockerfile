@@ -1,5 +1,5 @@
-FROM wojiushixiaobai/basics:latest
-LABEL maintainer "wojiushixiaobai"
+FROM centos:latest
+LABEL maintainer "bufer"
 WORKDIR /opt
 
 ENV GUAC_VER=0.9.14 \
